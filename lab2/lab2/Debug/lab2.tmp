@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega32U4"</DEVICE>
+ <WORKING_DIR>C:\Users\Spellabbet\Desktop\lab2\lab2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m32u4def.inc</FILE>
+  <FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\delay.inc</FILE>
+  <FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lcd.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\Debug\lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab2.map</FILE>
+  <FILE>lab2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>30</LINE></init>
+  <delay_1_micros><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\delay.inc</FILE><LINE>12</LINE></delay_1_micros>
+  <delay_micros><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\delay.inc</FILE><LINE>31</LINE></delay_micros>
+  <delay_ms><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\delay.inc</FILE><LINE>53</LINE></delay_ms>
+  <loop_dms><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\delay.inc</FILE><LINE>55</LINE></loop_dms>
+  <lcd_write_nibble><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lcd.inc</FILE><LINE>25</LINE></lcd_write_nibble>
+  <lcd_write_instr><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lcd.inc</FILE><LINE>37</LINE></lcd_write_instr>
+  <lcd_write_chr><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lcd.inc</FILE><LINE>51</LINE></lcd_write_chr>
+  <lcd_init><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lcd.inc</FILE><LINE>63</LINE></lcd_init>
+  <init_pins><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>45</LINE></init_pins>
+  <main><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>113</LINE></main>
+  <read_keyboard><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>57</LINE></read_keyboard>
+  <scan_key><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>59</LINE></scan_key>
+  <return_key_val><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>107</LINE></return_key_val>
+  <loop><FILE>C:\Users\Spellabbet\Desktop\lab2\lab2\lab2.asm</FILE><LINE>126</LINE></loop>
+ </LABELS>
+</ASSEMBLER_INFO>

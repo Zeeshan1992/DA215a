@@ -1,0 +1,94 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega32U4"</DEVICE>
+ <WORKING_DIR>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m32u4def.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\tarning.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stat.data.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\Debug\lab3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab3.map</FILE>
+  <FILE>lab3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>39</LINE></init>
+  <map_table><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>9</LINE></map_table>
+  <read_keyboard><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>13</LINE></read_keyboard>
+  <scan_key><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>15</LINE></scan_key>
+  <delay_micros><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>31</LINE></delay_micros>
+  <return_key_val><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>32</LINE></return_key_val>
+  <keyboard_ascii><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\keyboard.inc</FILE><LINE>38</LINE></keyboard_ascii>
+  <delay_1_micros><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>12</LINE></delay_1_micros>
+  <delay_ms><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>53</LINE></delay_ms>
+  <loop_dms><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>55</LINE></loop_dms>
+  <delay_1_s><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\delay.inc</FILE><LINE>69</LINE></delay_1_s>
+  <Str_1><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>12</LINE></Str_1>
+  <Str_2><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>13</LINE></Str_2>
+  <Str_3><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>14</LINE></Str_3>
+  <Str_4><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>15</LINE></Str_4>
+  <lcd_write_nibble><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>30</LINE></lcd_write_nibble>
+  <lcd_write_instr><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>42</LINE></lcd_write_instr>
+  <string><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>53</LINE></string>
+  <END><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>60</LINE></END>
+  <lcd_write_chr><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>67</LINE></lcd_write_chr>
+  <lcd_clear_display><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>76</LINE></lcd_clear_display>
+  <lcd_init><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lcd.inc</FILE><LINE>83</LINE></lcd_init>
+  <roll_dice><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\tarning.inc</FILE><LINE>3</LINE></roll_dice>
+  <test><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\tarning.inc</FILE><LINE>5</LINE></test>
+  <roll><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\tarning.inc</FILE><LINE>11</LINE></roll>
+  <Str><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stat.data.inc</FILE><LINE>3</LINE></Str>
+  <store_stat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stat.data.inc</FILE><LINE>8</LINE></store_stat>
+  <get_stat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stat.data.inc</FILE><LINE>19</LINE></get_stat>
+  <clear_stat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stat.data.inc</FILE><LINE>25</LINE></clear_stat>
+  <clearstring><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>9</LINE></clearstring>
+  <totalstring><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>11</LINE></totalstring>
+  <countones><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>13</LINE></countones>
+  <counttwos><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>15</LINE></counttwos>
+  <countthrees><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>17</LINE></countthrees>
+  <countfours><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>19</LINE></countfours>
+  <countfives><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>21</LINE></countfives>
+  <countsixs><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>23</LINE></countsixs>
+  <init_stat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>28</LINE></init_stat>
+  <hexconv><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>34</LINE></hexconv>
+  <printhex><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>35</LINE></printhex>
+  <showstat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>57</LINE></showstat>
+  <clearstat><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\stats.inc</FILE><LINE>117</LINE></clearstat>
+  <monitorstr><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>7</LINE></monitorstr>
+  <moni_start_str><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>8</LINE></moni_start_str>
+  <init_monitor><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>10</LINE></init_monitor>
+  <moni_read_keyboard><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>14</LINE></moni_read_keyboard>
+  <monireadquit><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>30</LINE></monireadquit>
+  <moni_akey><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>24</LINE></moni_akey>
+  <moni_print_address><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>33</LINE></moni_print_address>
+  <monitor><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>49</LINE></monitor>
+  <moni_next><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>56</LINE></moni_next>
+  <moniquit><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>82</LINE></moniquit>
+  <moni_more><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\monitor.inc</FILE><LINE>75</LINE></moni_more>
+  <init_pins><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>55</LINE></init_pins>
+  <main><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>70</LINE></main>
+  <loop><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>78</LINE></loop>
+  <two><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>103</LINE></two>
+  <three><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>119</LINE></three>
+  <eight><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>123</LINE></eight>
+  <nine><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>127</LINE></nine>
+  <CONT><FILE>C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab3\lab3\lab3.asm</FILE><LINE>131</LINE></CONT>
+ </LABELS>
+</ASSEMBLER_INFO>

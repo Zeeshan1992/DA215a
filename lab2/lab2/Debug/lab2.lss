@@ -1,0 +1,13 @@
+
+AVRASM ver. 2.2.7  C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm Sun May 19 17:40:26 2019
+
+[builtin](2): error: Cannot find include file: m32u4def.inc
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(0): '[builtin]' included form here
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(25): Including file 'C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\delay.inc'
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(26): Including file 'C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc'
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc(16): warning: Use of undefined or forward referenced symbol 'PORTD' in .equ/.set
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(26): 'C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc' included form here
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc(18): warning: Use of undefined or forward referenced symbol 'PORTD' in .equ/.set
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(26): 'C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc' included form here
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc(20): warning: Use of undefined or forward referenced symbol 'PORTF' in .equ/.set
+C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lab2.asm(26): 'C:\Users\zeesh\OneDrive\Documents\Atmel Studio\7.0\lab2\lab2\lcd.inc' included form here
